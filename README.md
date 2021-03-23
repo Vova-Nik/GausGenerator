@@ -5,3 +5,4 @@
  On the left and on the right same function with different coefficients
  Apparently it's a "bicycle" but my own, self made bicycle
     
+    Demo can be seen at https://www.aa-odessa.ho.ua/public_html/gauss/index.html
