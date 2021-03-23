@@ -1,8 +1,21 @@
-.container{
-    width:90%;
-margin: 0 auto;
+body{
+    font-family: sans-serif;
 }
-.wrapper{
+.header{
+    font-size: larger;
+    font-weight: 700;
+}
+.text{
+    font-size: smaller;
+    font-weight: 400;
+    margin: 5px 10%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper {
     margin: 32px auto;
     width: 100%;
     display: flex;
@@ -10,28 +23,29 @@ margin: 0 auto;
 
     gap: 4px;
 }
-.cell{
-    width:32px;
+
+.cell {
+    width: 32px;
     text-align: center;
     /* height: 18px; */
     background-color: rgb(214, 245, 101);
 }
 
-.canv{
+.canv {
     width: 100%;
     background-color: rgb(205, 216, 240);
 }
 
-.button{
+.button {
     width: 100px;
     height: 24px;
     line-height: 24px;
     text-align: center;
     border: 2px solid blue;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.indicator{
+.indicator {
     margin: 5px 24px;
     width: 18px;
     height: 18px;
