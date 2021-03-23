@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body style="font-family: sans-serif;">
+    <div class="container">
+<div style="font-size: larger;font-weight: 700;">App generetes Gauss shaped random sequence from JS Continuous uniform distribution sequence</div>
+        <div class="wrapper">
+            <canvas class="canv" id="lCanvas" width="512" height="512"></canvas>
+            <canvas class="canv" id="rCanvas" width="512" height="512"></canvas>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="button" onclick="swOn()">Start</div>
+        <div class="indicator"></div>
+        <div class="button" onclick="swOff()">Stop</div>
+    </div>
+    <div style="margin: 10px 20%">My own extremely fast algorithm, which uses only + - and byte shifting</div>
+    <div style="margin: 10px 20%">input to uotput Diapazon 0...500</div>
+    <div style="margin: 10px 20%">input sequence is JS random function</div>
+    <div style="margin: 10px 20%">on the left and on the right same function with different coeficients</div>
+    <div style="margin: 10px 20%">Apparently it's a "bycicle" but my own, self made bycicle</div>
+
+</body>
+
+<script src="canvas.js"></script>
+<script src="closures.js"></script>
+<script src="core.js"></script>
+
+
+
+</html>
